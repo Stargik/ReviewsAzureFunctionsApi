@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewsAzureFunctionsApi", "ReviewsAzureFunctionsApi\ReviewsAzureFunctionsApi.csproj", "{92D690B2-97BD-4544-8232-C8721CB5315E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92D690B2-97BD-4544-8232-C8721CB5315E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92D690B2-97BD-4544-8232-C8721CB5315E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92D690B2-97BD-4544-8232-C8721CB5315E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92D690B2-97BD-4544-8232-C8721CB5315E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF69BFCB-4A1D-4E63-A9DC-B94071B241DE}
+	EndGlobalSection
+EndGlobal
