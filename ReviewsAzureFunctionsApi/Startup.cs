@@ -11,7 +11,7 @@ namespace ReviewsAzureFunctionsApi
 	{
         public override void Configure(IFunctionsHostBuilder builder)
         {
-            string connectionString = Environment.GetEnvironmentVariable("SqlConnectionString");
+            var connectionString = Environment.GetEnvironmentVariable("SqlConnectionString");
             builder.Services.AddDbContext<ReviewsDbContext>(options => options.UseSqlServer(connectionString));
         }
     }

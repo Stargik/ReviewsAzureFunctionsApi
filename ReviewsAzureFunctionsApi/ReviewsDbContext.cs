@@ -7,6 +7,7 @@ namespace ReviewsAzureFunctionsApi
 	{
 		public ReviewsDbContext(DbContextOptions options) : base(options)
 		{
+
 		}
 		public DbSet<Review> Reviews { get; set; }
 	}
